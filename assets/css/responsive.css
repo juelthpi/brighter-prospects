@@ -1,0 +1,240 @@
+@media screen and (min-width: 1480px) {
+  .navbar-nav {
+    gap: 10px;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .nav-link i {
+    display: block;
+  }
+  .common-heading h1 {
+    font-size: 55px;
+    line-height: 60px;
+  }
+  .navbar.navbar-expand-xl {
+    background: #fff;
+    width: 100%;
+  }
+  .common-heading-section h1 {
+    font-size: 50px;
+    line-height: 65px;
+  }
+  .common-heading-section h3 {
+    font-size: 35px;
+    line-height: 42px;
+  }
+  .header-right {
+    margin-top: 40px;
+    padding-bottom: 40px;
+  }
+  .navbar-nav {
+    margin-top: 30px;
+  }
+  .nav-item > a {
+    padding: 12px 0px;
+  }
+  .apply-option-card {
+    padding: 50px 30px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .google-map iframe {
+    height: 400px;
+  }
+  .card-1 {
+    padding: 30px 20px;
+  }
+  .hero-section {
+    padding: 70px 0;
+  }
+  .hero-section:after {
+    width: 50%;
+    height: 32%;
+  }
+  .hero-thumbnails {
+    height: auto;
+  }
+  .hero-thumbnails-2 {
+    display: none;
+  }
+  .footer-description {
+    max-width: 100%;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 0;
+  }
+  .footer-widgets {
+    margin-top: 40px;
+  }
+  .common-heading h1 {
+    font-size: 40px;
+  }
+  .common-heading h2 {
+    font-size: 34px;
+    line-height: 40px;
+  }
+  .common-heading p {
+    font-size: 16px;
+  }
+  .mt-150 {
+    margin-top: 100px;
+  }
+  .badge-title {
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 20px;
+  }
+  .applicants-list h2 {
+    font-size: 40px;
+  }
+  .card-2 {
+    padding: 20px 15px;
+    border-radius: 15px;
+  }
+  .box-shadow {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .common-heading h3 {
+    font-size: 34px;
+    line-height: 40px;
+  }
+  .page-heading h5 {
+    font-size: 38px;
+    line-height: 60px;
+  }
+  .frequently-thumbnails {
+    display: none;
+  }
+  .login-thumbnails {
+    display: none;
+  }
+  .login-left-side {
+    width: 100%;
+  }
+  .login-info-area {
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+  .login-info-area {
+    padding: 18px;
+  }
+  .masonry-gallery {
+    column-count: 2;
+  }
+}
+@media screen and (max-width: 767px) {
+  .requirement-thumbnails-1 {
+    max-width: 170px;
+  }
+  .requirement-thumbnails-2 {
+    margin-left: 0;
+  }
+  .login-top-info h4 {
+    font-size: 28px;
+  }
+  .page-heading h5 {
+    font-size: 30px;
+    line-height: 60px;
+  }
+  .google-map iframe {
+    height: 300px;
+  }
+  .slider-btn i {
+    font-size: 15px;
+  }
+  .slider-btn {
+    margin-bottom: 40px;
+    height: 45px;
+    width: 45px;
+  }
+
+  .common-heading h3 {
+    font-size: 28px;
+    line-height: 35px;
+  }
+  .address-info a {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .contact-section .primary-btn {
+    padding: 14px 10px;
+  }
+  .author-logo img {
+    width: 46px;
+    height: 46px;
+  }
+  .apply-option-card {
+    margin-top: 70px;
+  }
+  .apply-option-card {
+    padding: 15px 15px;
+  }
+  .card-1-icon {
+    height: 45px;
+    width: 45px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .card-1-icon img {
+    width: 28px;
+  }
+  .mission-thumbnails:after {
+    display: none;
+  }
+  .mt-150 {
+    margin-top: 70px;
+  }
+  .hero-thumbnails-1:after {
+    right: 0;
+  }
+  .hero-thumbnails-1 img {
+    max-width: 100%;
+  }
+  .pre-header {
+    display: none;
+  }
+  .common-heading h1 {
+    font-size: 34px;
+    line-height: 48px;
+  }
+  .hero-thumbnails-1 {
+    display: block !important;
+  }
+  .subscribe-section {
+    padding: 40px 25px;
+  }
+  .volunteer-work-card {
+    padding: 20px;
+  }
+  .page-heading-section {
+    padding: 55px 0;
+  }
+  .mt-100 {
+    margin-top: 70px;
+  }
+  .ptb-100 {
+    padding: 70px 0;
+  }
+  .unsuccessful-applicants li i {
+    font-size: 8px;
+  }
+  .footer-area {
+    margin-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .masonry-gallery {
+    column-count: 2;
+  }
+  .footer-widgets {
+    width: 100%;
+  }
+}
