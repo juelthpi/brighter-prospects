@@ -35,10 +35,19 @@ jQuery(document).ready(function ($) {
   $(window).on("scroll", function () {
     checkScroll();
   });
+  // counter up
+  $(".counter").counterUp({
+    delay: 10,
+    time: 1000,
+  });
 });
 // loader
 $(window).on("load", function () {
   $("#preloader").fadeOut();
   $("#preloader").delay(500).fadeOut("slow");
   $("body").delay(500).css({ opacity: 1 });
+});
+AOS.init({
+  duration: 800,
+  once: true,
 });

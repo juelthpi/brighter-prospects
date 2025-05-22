@@ -309,7 +309,11 @@ button:focus:not(:focus-visible) {
 /* start core css */
 .pre-header ul li a {
   font-weight: 500;
+  transition: 0.5s;
   color: #fff;
+}
+.pre-header ul li a:hover {
+  color: var(--green-dark);
 }
 .pre-header {
   background-color: var(--orange-color);
