@@ -38,6 +38,13 @@
   }
 }
 @media screen and (max-width: 991px) {
+  .other-programs-section .container-fluid {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .program-container {
+    padding: 80px 0px;
+  }
   .google-map iframe {
     height: 400px;
   }

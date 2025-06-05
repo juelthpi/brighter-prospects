@@ -970,6 +970,7 @@ header.header-area {
   border-radius: 20px;
 }
 .volunteer-work-card {
+  transition: 0.2s;
   padding: 40px;
   border-radius: 20px;
   border: 1px solid var(--orange-color);
@@ -1031,3 +1032,25 @@ ol li {
   }
 }
 /* data-aos-duration="1500" */
+.program-container{
+  background:#BEDBBF;
+  border-radius:40px;
+  padding: 100px 10px;
+}
+.program-content p{
+      color: #1e2329;
+      font-size: 16px;
+      font-weight: 500;
+}
+.program-content{
+  font-size: 24px;
+  color:black;
+  font-weight: 700;
+}
+.other-programs-section .container-fluid{
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.program-container .volunteer-work-card:hover{
+  transform: translateY(-12px);
+}
